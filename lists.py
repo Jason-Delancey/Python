@@ -22,6 +22,7 @@ del names[0]
 names.pop()
 names.pop()
 print(names)
+print()
 
 places = ['aruba', 'jamaica', 'canada', 'california', 'japan']
 print(places)
@@ -33,7 +34,16 @@ print(places)
 places.reverse()
 print(places)
 print(len(places))
+print()
 
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
-	print(magician)
+	print("This magician's name is: " + magician)
+print("Those are all of the magicians.\n")
+
+for value in range(1,5):
+	print(value)
+print()
+	
+even_numbers = list(range(2,11,2))
+print(even_numbers)
