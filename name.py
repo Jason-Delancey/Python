@@ -1,3 +1,6 @@
+#The program is just used as practice for using string concatenation
+#by Jason Delancey
+
 name = "ADA loveLACE"
 print(name.title())
 

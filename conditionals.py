@@ -1,4 +1,7 @@
-#use if conditional
+#The program is just used as practice for using conditionals
+#by Jason Delancey
+
+#use if conditional with lists
 cars = ['audi', 'bmw', 'subaru', 'toyota']
 for car in cars:
 	if car == 'bmw':
@@ -37,12 +40,12 @@ elif age < 65:
 else:
 	price = 5
 
-#check to ensure the list is not empty first
+#check to ensure the list is not empty first before running a for loop
 requested_toppings = []
 if requested_toppings:
 	for requested_topping in requested_toppings:
 		print("Adding " + requested_topping + ".")
-		print("\nFinished making your pizza!")
+	print("\nFinished making your pizza!")
 else:
 	print("Are you sure you want a plain pizza?")
 print()
