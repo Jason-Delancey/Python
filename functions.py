@@ -16,6 +16,7 @@ def describe_pet(pet_name, animal_type='dog', animal_age=''):
 	"""Display information about a pet."""
 	print("\nI have a " + animal_type + ".")
 	print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+	
 describe_pet(pet_name='willie')
 describe_pet(pet_name='milo', animal_type='cat')
 print()

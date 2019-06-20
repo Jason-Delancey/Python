@@ -5,7 +5,7 @@
 
 #import a different module to use the functions defined in it
 #you can also import individual functions from a module
-#you can also use aliases when importing
+#you can also use aliases when importing3
 
 import functions #have to use dot notation
 from functions import * #dont have to use the dot notation now
