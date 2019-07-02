@@ -12,6 +12,7 @@ greet_user('Lucifer')
 
 #defining a function using a default value for the parameter
 #default value can be an empty string so it's optional
+#return value should be set to NONE if it's not suppose to return anything
 def describe_pet(pet_name, animal_type='dog', animal_age=''):
 	"""Display information about a pet."""
 	print("\nI have a " + animal_type + ".")
